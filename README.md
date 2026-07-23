@@ -14,9 +14,6 @@ roleplay communities and professional server teams.
 <br>
 
 [![Website](https://img.shields.io/badge/WEBSITE-HCP--AC.COM-171717?style=for-the-badge)](https://hcp-ac.com)
-[![Discord](https://img.shields.io/badge/DISCORD-COMMUNITY-171717?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RGAUVNnAY2)
-[![Status](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-171717?style=for-the-badge)](https://hcp-ac.com)
-
 </div>
 
 <br>
