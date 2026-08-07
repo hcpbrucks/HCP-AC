@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="170" viewBox="0 0 980 170" fill="none">
+  <style>
+    :root{
+      --bg:#f6f8fa; --panel:#ffffff; --line:rgba(31,35,40,.10); --text:#111827; --muted:#6b7280; --bar:#111111; --soft:#eef2f7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root{
+        --bg:#0d1117; --panel:#11161d; --line:rgba(240,246,252,.10); --text:#f5f7fb; --muted:#9aa4b2; --bar:#ffffff; --soft:#0f141a;
+      }
+    }
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .prog { animation: prog 4s infinite; }
+    .pulse { animation: pulse 1.5s infinite; }
+    .dot1 { animation: dots 1.2s infinite; }
+    .dot2 { animation: dots 1.2s .2s infinite; }
+    .dot3 { animation: dots 1.2s .4s infinite; }
+    @keyframes prog { 0%{width:60px} 60%{width:660px} 100%{width:660px} }
+    @keyframes pulse { 0%,100%{opacity:.55} 50%{opacity:1} }
+    @keyframes dots { 0%,80%,100%{opacity:.3} 40%{opacity:1} }
+  </style>
+
+  <rect width="980" height="170" rx="22" fill="var(--bg)"/>
+  <rect x="1" y="1" width="978" height="168" rx="21" stroke="var(--line)"/>
+  <rect x="32" y="28" width="916" height="114" rx="18" fill="var(--panel)" stroke="var(--line)"/>
+
+  <text x="58" y="60" font-size="15" font-weight="700" fill="var(--text)">INITIALIZING PUBLIC PACKAGE REQUEST</text>
+  <text x="58" y="84" font-size="13" font-weight="600" fill="var(--muted)">Checking license route</text>
+  <circle class="dot1" cx="250" cy="79" r="3.5" fill="var(--muted)"/>
+  <circle class="dot2" cx="264" cy="79" r="3.5" fill="var(--muted)"/>
+  <circle class="dot3" cx="278" cy="79" r="3.5" fill="var(--muted)"/>
+
+  <rect x="58" y="102" width="710" height="18" rx="9" fill="var(--soft)" stroke="var(--line)"/>
+  <rect class="prog" x="58" y="102" width="60" height="18" rx="9" fill="var(--bar)"/>
+
+  <circle class="pulse" cx="802" cy="111" r="8" fill="var(--bar)"/>
+  <text x="822" y="116" font-size="13" font-weight="700" fill="var(--text)">Protected builds are delivered through the HCP panel.</text>
+</svg>

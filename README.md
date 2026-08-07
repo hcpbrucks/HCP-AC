@@ -1,12 +1,11 @@
 <p align="center">
-  <img src="./hcp-ac-header.jpg" alt="HCP AC" width="360">
+  <img src="./hcp-ac-hero.svg" alt="HCP AC Hero" width="100%">
 </p>
 
 <h1 align="center">HCP AC</h1>
 
 <p align="center">
-  <strong>More than just an Anti-Cheat.</strong><br>
-  Anti-Cheat, live monitoring and PC analysis in one connected system for FiveM server teams.
+  <strong>FiveM Anti-Cheat, live monitoring and PC analysis in one connected platform.</strong>
 </p>
 
 <p align="center">
@@ -17,7 +16,7 @@
     <img src="https://img.shields.io/badge/Panel-Live_Preview-111111?style=for-the-badge" alt="Preview">
   </a>
   <a href="https://hcp-ac.com/docs.php">
-    <img src="https://img.shields.io/badge/Docs-Documentation-111111?style=for-the-badge" alt="Documentation">
+    <img src="https://img.shields.io/badge/Docs-Documentation-111111?style=for-the-badge" alt="Docs">
   </a>
   <a href="https://discord.gg/RGAUVNnAY2">
     <img src="https://img.shields.io/badge/Discord-Join-111111?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
@@ -27,51 +26,54 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/hcpbrucks/HCP-AC?style=flat-square&label=Stars" alt="Stars">
   <img src="https://img.shields.io/github/forks/hcpbrucks/HCP-AC?style=flat-square&label=Forks" alt="Forks">
-  <img src="https://img.shields.io/badge/FiveM-Security-111111?style=flat-square" alt="FiveM Security">
-  <img src="https://img.shields.io/badge/Web-Management_Panel-111111?style=flat-square" alt="Web Panel">
-  <img src="https://img.shields.io/badge/Windows-HCP_SC-111111?style=flat-square&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/FiveM-Security-111111?style=flat-square" alt="FiveM">
+  <img src="https://img.shields.io/badge/Web-Management_Panel-111111?style=flat-square" alt="Panel">
+  <img src="https://img.shields.io/badge/Windows-HCP_Scanner-111111?style=flat-square&logo=windows&logoColor=white" alt="Scanner">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=2600&pause=700&color=7D8590&center=true&vCenter=true&width=780&lines=165+detection+rules+across+12+protection+areas;Live+player+monitoring+from+the+browser;Web+configuration+without+local+detection+files;Trust+Score+with+shared+player+context;On-Screen+Analysis+with+consent+and+heartbeat;Structured+PC+analysis+for+your+whole+team" alt="HCP AC Features">
-</p>
-
-<p align="center">
-  <img src="./hcp-ac-live.svg" alt="HCP AC Live Platform" width="100%">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=2500&pause=650&color=7D8590&center=true&vCenter=true&width=770&lines=Live+FiveM+Protection;24%2F7+Player+Monitoring;Browser-based+Web+Watch;Trust+Score+and+shared+player+context;On-Screen+Analysis;Structured+PC+analysis+for+teams" alt="Feature line">
 </p>
 
 ---
 
 <p align="center">
-  <a href="#hcp-anti-cheat">Anti-Cheat</a> ·
-  <a href="#247-monitoring">24/7 Monitoring</a> ·
+  <a href="#products">Products</a> ·
+  <a href="#anti-cheat">Anti-Cheat</a> ·
   <a href="#web-watch">Web Watch</a> ·
   <a href="#player-intelligence">Player Intelligence</a> ·
-  <a href="#on-screen-analysis">On-Screen</a> ·
-  <a href="#web-panel--config">Web Config</a> ·
-  <a href="#hcp-scanner">Scanner</a> ·
-  <a href="#hcp-complete">Complete</a>
+  <a href="#web-panel">Web Panel</a> ·
+  <a href="#scanner">Scanner</a> ·
+  <a href="#compare">Compare</a> ·
+  <a href="./download.md">Download</a>
 </p>
 
 ---
 
-## One platform. Two tools. Shared player context.
-
-HCP AC brings live FiveM protection and structured PC analysis into the same management environment.
+## Products
 
 <table>
 <tr>
 <td width="33%" valign="top">
-<h3>HCP Anti-Cheat</h3>
-Live server protection, detections, Players, Bans, Web Watch, On-Screen Analysis, evidence and Resource Protection.
+
+### HCP Anti-Cheat
+
+Live server protection with Players, Bans, Web Watch, On-Screen Analysis, evidence and Resource Protection.
+
 </td>
 <td width="33%" valign="top">
-<h3>HCP Scanner</h3>
-Consent-based PC analysis with files, processes, FiveM traces, signatures, reports and team review.
+
+### HCP Scanner
+
+Consent-based PC analysis with file traces, process context, reports and team review.
+
 </td>
 <td width="33%" valign="top">
-<h3>HCP Complete</h3>
+
+### HCP Complete
+
 Both products connected through Trust Score, Check User and shared player intelligence.
+
 </td>
 </tr>
 </table>
@@ -84,127 +86,85 @@ Both products connected through Trust Score, Check User and shared player intell
 
 ---
 
-# HCP Anti-Cheat
+## Anti-Cheat
 
-Live protection built around real server operations.
-
-HCP AC combines client, server and resource context instead of relying on a single isolated signal.
+Built for real moderation workflows, not just console spam.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Combat & Aim
+### Core protection
 
 - Aim Lock
-- Head Lock
 - Silent Aim
 - Triggerbot
 - Wallshot checks
-- No Recoil / Spread
-- Weapon validation
-
-</td>
-<td width="50%" valign="top">
-
-### Player State
-
 - Godmode
+- Noclip / Fly
 - Health & Armor manipulation
-- No Ragdoll
-- No Collision
-- Movement anomalies
-- Noclip / Fly indicators
-- Suspicious state changes
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Entities & Vehicles
-
-- Entity spam
-- Vehicle spawn
-- Vehicle launch
-- Force hijack
-- Explosion spam
-- Detach manipulation
-- Object abuse
+- No Recoil / Spread
 
 </td>
 <td width="50%" valign="top">
 
-### Executor & Resources
+### Server & resource layer
 
-- Lua injection indicators
-- External executor indicators
 - Protected events
-- Resource hooking
-- Resource stopping
-- Replay protection
+- Resource heartbeat
 - Integrity checks
+- Replay protection
+- Injection indicators
+- Entity abuse
+- Vehicle abuse
+- Explosion monitoring
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://hcp-ac.com/anticheat.php">
-    <img src="https://img.shields.io/badge/View-All_Anti--Cheat_Features-111111?style=for-the-badge" alt="Anti-Cheat Features">
-  </a>
-</p>
+### 24/7 Monitoring
+
+The platform keeps player and security state available while the server is running.
+
+- Live player status
+- Detection activity
+- Resource heartbeat
+- Incident context
+- Evidence connection
+- Browser access for the team
+
+24/7 Monitoring is not permanent video recording. Visual review is handled through Web Watch.
 
 ---
 
-# 24/7 Monitoring
-
-The Anti-Cheat keeps connected player and security state available while the server is running.
-
-This includes current player status, relevant detections, resource heartbeats and incident context. Staff do not need to sit in front of the panel for the system to keep collecting operational security information.
-
-**24/7 Monitoring is not permanent video recording.** Visual observation is a separate action through Web Watch.
-
-| Monitoring | What it gives your team |
-|---|---|
-| Players | Online state and current session context |
-| Detections | Relevant Anti-Cheat activity as it happens |
-| Resources | Heartbeat and protection state |
-| Incidents | Evidence and history connected to the player |
-| Panel | Current information from any authorized browser |
-
----
-
-# Web Watch
+## Web Watch
 
 Watch selected players directly from the browser.
 
-Web Watch captures the FiveM game render and sends the stream to the authorized browser over WebRTC. The current profile targets **720p30** and supports **up to 10 simultaneous player tiles**.
-
-There is no screenshot-polling loop pretending to be a live stream.
+The current Web Watch profile targets **720p30** and supports **up to 10 simultaneous player tiles**.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Live View
+### Live view
 
-- Continuous WebRTC stream
+- Continuous stream
 - Multi-player selection
 - Responsive tile layout
-- Existing streams stay open when another player is added
 - Player context next to the stream
 
 </td>
 <td width="50%" valign="top">
 
-### Quick Actions
+### Quick actions
 
 - Screenshot
 - Clip
-- Player Info
 - Kick
 - Ban
+- Player Info
 - Evidence
 - Trust context
 
@@ -220,111 +180,59 @@ There is no screenshot-polling loop pretending to be a live stream.
 
 ---
 
-# Evidence
+## Player Intelligence
 
-Screenshots, clips and detection context stay connected to the player instead of ending up as unrelated files.
+Everything important stays connected to the player.
 
-Evidence can include:
-
-- Detection screenshots
-- Manual screenshots
-- Clips
-- Ban information
-- Detection details
-- Player identifiers
-- Session context
-- Trust context
-- Scanner context
-
-Without an external evidence provider, supported temporary screenshots can use HCP local storage and are removed automatically according to the active storage policy.
-
----
-
-# Player Intelligence
-
-Player Info is built for quick review, not heartbeat spam.
-
-A player profile can bring together:
-
-- Trust Score
-- Identifiers
-- Current session
-- Bans
-- Relevant detections
-- Scanner summary
-- On-Screen context
-- Evidence
-- Team actions
-
-## Trust Score
+### Trust Score
 
 Trust Score recalculates from the intelligence currently available for that player.
 
 Possible inputs include:
 
-- Discord membership, roles and relevant message context
-- Active Anti-Cheat bans
+- Anti-Cheat history
 - Scanner results
-- Reviewed On-Screen findings
+- On-Screen findings
+- Discord context
 - Confirmed HCP records
 
-A flagged Discord membership by itself is **not** treated as proof of cheating.
+A flagged Discord by itself is not treated as proof of cheating.
 
-A confirmed global HCP block is handled separately and can override the score with the stored reason.
+### Check User
 
-## Check User
-
-Check User keeps sources separate instead of mixing every flag into one detection list.
+Check User keeps sources separate instead of mixing every flag into one list.
 
 It can show:
 
-- Anti-Cheat bans
+- HCP AC bans
 - HCP AC player context
 - Scanner summary
 - Flagged Discord context
-- External intelligence
 - Trust Score
-
-Full identifiers remain permission controlled.
 
 ---
 
-# On-Screen Analysis
+## On-Screen Analysis
 
-On-Screen Analysis is used when a server requires a deeper check than ordinary Anti-Cheat context.
+For cases where the normal Anti-Cheat context is not enough.
 
-A requirement can be applied globally or to exact identities such as Discord, FiveM/Cfx, license, Steam, XBL or Live identifiers.
-
-The user is guided through the personal Windows application, current legal information and consent before the required session is accepted.
-
-### Current flow
-
-- Personal Windows application
+- Personal Windows app
 - Consent before analysis
 - Persistent connection state
-- **15-second heartbeat requirement**
+- 15-second heartbeat requirement
 - Process analysis
 - Download analysis
 - Local screen-text analysis
-- Built-in and customer-defined indicators
 - Team-side status
 - Explicit Live Watch action
 
-Live Watch does **not** start automatically. An authorized team member has to open it.
-
-<p align="center">
-  <a href="https://hcp-ac.com/preview-panel.php?page=onscreen&product=complete">
-    <img src="https://img.shields.io/badge/Open-On--Screen_Preview-111111?style=for-the-badge" alt="On-Screen Preview">
-  </a>
-</p>
+Live Watch does not start automatically. An authorized team member has to open it.
 
 ---
 
-# Web Panel & Config
+## Web Panel
 
-Daily Anti-Cheat administration happens in the panel.
-
-Customers do not need to edit a local detection config for normal configuration changes. The connected resource pulls its live configuration from HCP AC.
+Daily administration happens in the panel.
 
 <table>
 <tr>
@@ -332,8 +240,8 @@ Customers do not need to edit a local detection config for normal configuration 
 
 ### Players
 
-- Online / offline
-- Info dialogs
+- Online / Offline
+- Player Info
 - Watch
 - Screenshot
 - Ban / Kick
@@ -348,7 +256,6 @@ Customers do not need to edit a local detection config for normal configuration 
 - Player
 - Entities
 - Weapons
-- Basic detections
 - Misc
 - Context help
 - False-positive guidance
@@ -363,14 +270,14 @@ Customers do not need to edit a local detection config for normal configuration 
 - txAdmin
 - ACE
 - ESX
-- Permission Roles
+- Permission roles
 - Automatic resync
 
 </td>
 </tr>
 </table>
 
-Lists such as blocked vehicles, peds and objects can use GTA model names instead of requiring raw hashes.
+Lists such as blocked vehicles, peds and objects can use GTA model names instead of raw hashes.
 
 <p align="center">
   <a href="https://hcp-ac.com/preview-panel.php?page=config&product=complete">
@@ -380,14 +287,11 @@ Lists such as blocked vehicles, peds and objects can use GTA model names instead
 
 ---
 
-# Resource Protection
+## Resource Protection
 
 HCP AC can extend protected resources without forcing customers to manually rebuild every script.
 
-Protection includes:
-
 - Protected event transport
-- Session and direction binding
 - Sequence validation
 - Replay protection
 - Resource heartbeat
@@ -395,8 +299,6 @@ Protection includes:
 - Integrity checks
 - Controlled repair
 - Installer integration
-
-The installer is controlled through HCP configuration and console commands.
 
 ```bash
 hcp status
@@ -409,32 +311,15 @@ hcp installer uninstall
 
 ---
 
-# HCP Admin / Ingame
-
-Important actions are also available directly in FiveM.
-
-Staff can open Players, inspect Trust context, observe sessions and take action without leaving the server.
-
-- Players & Trust Score
-- Watch, Screenshot & Clip
-- Ban, Kick & Evidence
-- Config & Access
-
-The web panel remains the central management environment, while HCP Admin covers the actions that are useful during live moderation.
-
----
-
-# HCP Scanner
+## Scanner
 
 HCP Scanner provides transparent PC analysis with a PIN-based flow and structured reports.
-
-The user sees what is being checked. The team receives the findings, paths, signatures and context needed for review.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Files & Paths
+### Files & paths
 
 - Downloads
 - Desktop
@@ -449,55 +334,37 @@ The user sees what is being checked. The team receives the findings, paths, sign
 - Plugins
 - Cache
 - Resource traces
-- Related client artifacts
 
 </td>
 <td width="50%" valign="top">
 
-### Processes & Windows
+### Processes & context
 
 - Running processes
 - Command lines
 - Parent processes
 - Visible windows
 
-### Hashes & Signatures
+### Reports
 
-- Known hashes
-- Digital signatures
-- Context-aware matching
+- Summary and risk
+- Findings with context
+- Timeline
+- Team review
 
 </td>
 </tr>
 </table>
 
-## Reports
-
-Reports are organized around risk and context rather than one keyword deciding the result.
-
-They can include:
-
-- Summary and risk level
-- Findings with path and context
-- Timeline
-- Relevant system information
-- Evidence
-- Team actions
-- Documented decision
-
 <p align="center">
   <a href="https://hcp-ac.com/pc-analysis.php">
-    <img src="https://img.shields.io/badge/View-HCP_Scanner-111111?style=for-the-badge" alt="HCP Scanner">
+    <img src="https://img.shields.io/badge/View-HCP_Scanner-111111?style=for-the-badge" alt="Scanner">
   </a>
 </p>
 
 ---
 
-# HCP Complete
-
-Complete links live Anti-Cheat context and PC Analysis at the player level.
-
-The two products stay separate where they should, but the important information can be reviewed together through Player Info, Trust Score and Check User.
+## Compare
 
 | Feature | Anti-Cheat | Scanner | Complete |
 |---|:---:|:---:|:---:|
@@ -514,15 +381,11 @@ The two products stay separate where they should, but the important information 
 | Trust Score | AC context | Scanner context | Shared |
 | Check User | Product context | Product context | Shared |
 
-Current availability depends on the active license and product version.
-
 ---
 
-# Team Access
+## Team Access
 
 HCP AC is built for teams, not one shared admin account.
-
-Typical roles include:
 
 | Role | Use |
 |---|---|
@@ -530,13 +393,11 @@ Typical roles include:
 | Analyst | Review scans, evidence and player context |
 | Manager | Player actions, configuration and team workflows |
 
-Permissions can control access to sensitive identifiers, player actions, Scanner reports, configuration and other protected areas.
+Permissions can control access to sensitive identifiers, player actions, Scanner reports, configuration and protected areas.
 
 ---
 
-# API & Integrations
-
-HCP AC exposes approved interfaces for server-side integrations.
+## API & Integrations
 
 ### Scanner API
 
@@ -554,13 +415,9 @@ Content-Type: application/json
 }
 ```
 
-### Anti-Cheat API
-
-Resource requests are authenticated server-side. Production secrets must never be placed in browser JavaScript.
-
 ### Management API
 
-Management integrations can access approved areas such as:
+Approved integrations can access areas such as:
 
 - User checks
 - Security intelligence
@@ -574,9 +431,7 @@ Enterprise workflows can add signed webhooks, queues, retries and delivery logs.
 
 ---
 
-# Security & Privacy
-
-HCP AC is designed around controlled access and clear user-facing analysis flows.
+## Security & Privacy
 
 - Scanner analysis requires consent
 - On-Screen Analysis presents current Terms and Privacy information
@@ -584,13 +439,12 @@ HCP AC is designed around controlled access and clear user-facing analysis flows
 - Private API keys stay server-side
 - Team permissions restrict sensitive areas
 - Flags remain separate from confirmed records
-- Technical indicators support review instead of replacing it
 
 Final moderation decisions remain with the responsible server team.
 
 ---
 
-# Installation
+## Installation
 
 Production Anti-Cheat builds are distributed through the official HCP panel.
 
@@ -605,84 +459,23 @@ Production Anti-Cheat builds are distributed through the official HCP panel.
 ensure <your-renamed-hcp-resource>
 ```
 
-Recommended checks:
-
-```bash
-hcp status
-hcp update
-hcp installer status
-```
-
-The default `hcp_ac` resource name is supported, but a custom resource name is recommended by the current documentation.
-
 ---
 
-# Downloads
+## Downloads
 
-The protected Anti-Cheat and Scanner builds are **not distributed publicly through this repository**.
+Protected Anti-Cheat and Scanner builds are **not distributed publicly through this repository**.
 
 Use the official HCP AC website and customer panel for authorized production downloads.
 
 <p align="center">
-  <a href="https://hcp-ac.com">
-    <img src="https://img.shields.io/badge/Official-HCP_AC-111111?style=for-the-badge" alt="HCP AC">
-  </a>
-  <a href="https://hcp-ac.com/docs.php">
-    <img src="https://img.shields.io/badge/Read-Installation_Docs-111111?style=for-the-badge" alt="Installation Docs">
+  <a href="./download.md">
+    <img src="https://img.shields.io/badge/Open-Download_Guide-111111?style=for-the-badge" alt="Download Guide">
   </a>
 </p>
 
-The `download.lua` file in this repository is an informational helper only. It does not contain the protected Anti-Cheat or Scanner.
-
 ---
 
-# FAQ
-
-<details>
-<summary><strong>What is the difference between 24/7 Monitoring and Web Watch?</strong></summary>
-<br>
-24/7 Monitoring keeps security, player and resource state available while the server is running. Web Watch is the explicit visual review of selected players through the browser.
-</details>
-
-<details>
-<summary><strong>Does Web Watch use screenshots as a fake video feed?</strong></summary>
-<br>
-No. The documented Web Watch implementation uses a continuous WebRTC stream and targets 720p30.
-</details>
-
-<details>
-<summary><strong>Can I configure the Anti-Cheat from the browser?</strong></summary>
-<br>
-Yes. Supported Anti-Cheat settings, Access rules and Installer options are managed through the HCP panel.
-</details>
-
-<details>
-<summary><strong>Does a Discord flag automatically mean someone cheated?</strong></summary>
-<br>
-No. Flagged community information is contextual and remains separate from confirmed HCP records.
-</details>
-
-<details>
-<summary><strong>What does Trust Score use?</strong></summary>
-<br>
-Available Anti-Cheat, Scanner, On-Screen and security intelligence can contribute to the score. A confirmed global HCP block is handled separately.
-</details>
-
-<details>
-<summary><strong>Does On-Screen Live Watch start silently?</strong></summary>
-<br>
-No. Live Watch is a separate action and only starts when an authorized team member explicitly opens it.
-</details>
-
-<details>
-<summary><strong>Is the production Anti-Cheat open source?</strong></summary>
-<br>
-No. Security-sensitive production components remain private. This repository is used for public project information and approved material.
-</details>
-
----
-
-# Official Links
+## Official Links
 
 | | |
 |---|---|
@@ -698,21 +491,11 @@ No. Security-sensitive production components remain private. This repository is 
 ---
 
 <p align="center">
-  <img src="./hcp-ac-live.svg" alt="HCP AC Platform" width="100%">
+  <img src="./hcp-ac-hero.svg" alt="HCP AC Footer" width="100%">
 </p>
 
 <h3 align="center">HCP AC</h3>
 
 <p align="center">
   FiveM Anti-Cheat · Live Monitoring · PC Analysis
-</p>
-
-<p align="center">
-  <a href="https://hcp-ac.com">Website</a>
-  ·
-  <a href="https://hcp-ac.com/preview-panel.php?page=dashboard&product=complete">Preview</a>
-  ·
-  <a href="https://hcp-ac.com/docs.php">Docs</a>
-  ·
-  <a href="https://discord.gg/RGAUVNnAY2">Discord</a>
 </p>
