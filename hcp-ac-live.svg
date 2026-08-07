@@ -1,0 +1,73 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B0E"/>
+      <stop offset="0.52" stop-color="#11151B"/>
+      <stop offset="1" stop-color="#090B0E"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="150" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="148" rx="19" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g opacity="0.12">
+    <path d="M0 38H1200M0 75H1200M0 112H1200" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M100 0V150M300 0V150M500 0V150M700 0V150M900 0V150M1100 0V150" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+
+  <rect y="4" width="240" height="142" rx="18" fill="url(#beam)" filter="url(#glow)">
+    <animate attributeName="x" values="-260;1220" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="46" y="55" fill="#FFFFFF" font-size="15" font-weight="700" letter-spacing="2">HCP AC / LIVE PLATFORM</text>
+    <text x="46" y="91" fill="#9EA7B3" font-size="13">FiveM security, monitoring and analysis in one connected system.</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">
+    <g transform="translate(530 47)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">LIVE PROTECTION</text>
+    </g>
+    <g transform="translate(750 47)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">24/7 MONITORING</text>
+    </g>
+    <g transform="translate(980 47)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">WEB WATCH</text>
+    </g>
+    <g transform="translate(530 98)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">TRUST SCORE</text>
+    </g>
+    <g transform="translate(750 98)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">ON-SCREEN</text>
+    </g>
+    <g transform="translate(980 98)">
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="4" fill="#FFFFFF">PC ANALYSIS</text>
+    </g>
+  </g>
+</svg>

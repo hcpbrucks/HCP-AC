@@ -1,177 +1,67 @@
-
-======================================================================
-                              HCP AC
-======================================================================
-
-FiveM Security, Analysis and Management
-
-HCP AC is a centralized security ecosystem built for FiveM servers,
-roleplay communities and professional server teams.
-
-
-----------------------------------------------------------------------
-OFFICIAL DOWNLOAD
-----------------------------------------------------------------------
-
-HCP AC is not publicly distributed through GitHub.
-
-To download the official and latest version, please use the official
-HCP AC website and customer panel.
-
-
-Download instructions:
-
-1. Visit the official HCP AC website
-
-   https://hcp-ac.com
-
-
-2. Sign in with your account
-
-   Use Discord to log in to your HCP AC account.
-
-
-3. Activate or select your license
-
-   A valid HCP AC license is required to access protected downloads.
-
-
-4. Open the download area
-
-   Navigate to the download section inside the HCP AC panel.
-
-
-5. Download the latest version
-
-   The panel always provides the currently authorized version for
-   your license and product.
-
-
-6. Follow the installation guide
-
-   Installation and configuration instructions are available directly
-   inside the panel.
-
-
-----------------------------------------------------------------------
-AVAILABLE PRODUCTS
-----------------------------------------------------------------------
-
-HCP ANALYTIC
-
-Consent-based PC analysis and scanner system for FiveM server teams.
-
-Features include:
-
-- Secure temporary scan sessions
-- PIN-based scanner access
-- Structured PC analysis
-- Suspicious file and process detection
-- FiveM file and cache analysis
-- USB device analysis
-- Browser and recent-file indicators
-- Web-based reports
-- Team permissions
-- Detection classifications
-
-
-HCP ANTI-CHEAT
-
-Live protection and detection system for FiveM servers.
-
-Features include:
-
-- Event and trigger protection
-- Server-side validation
-- Weapon and combat detections
-- Resource manipulation monitoring
-- Suspicious player behavior analysis
-- Incident reporting
-- Evidence logging
-- Configurable detection modules
-- Team bypass management
-- Central web-panel configuration
-
-
-HCP COMPLETE
-
-The combined HCP AC security ecosystem.
-
-Includes:
-
-- HCP Analytic
-- HCP Anti-Cheat
-- Central team panel
-- Security intelligence
-- Discord integration
-- API access
-- License management
-
-
-----------------------------------------------------------------------
-WHY IS THE DOWNLOAD NOT PUBLIC?
-----------------------------------------------------------------------
-
-Most HCP AC production systems remain private to protect:
-
-- Anti-Cheat detection logic
-- Scanner detection logic
-- License validation systems
-- Authentication infrastructure
-- Internal security databases
-- Production configurations
-- Customer integrations
-- Private APIs
-- Deployment information
-
-Publishing these systems publicly would allow detection methods and
-security mechanisms to be analyzed, modified or bypassed.
-
-
-----------------------------------------------------------------------
-SECURITY NOTICE
-----------------------------------------------------------------------
-
-Only download HCP AC software from the official website.
-
-Unofficial mirrors, reuploads and third-party downloads may be:
-
-- Outdated
-- Modified
-- Incomplete
-- Unsafe
-- Unlicensed
-- Unsupported
-
-HCP AC is not responsible for files downloaded from unofficial sources.
-
-
-----------------------------------------------------------------------
-OFFICIAL LINKS
-----------------------------------------------------------------------
-
-Website:
-https://hcp-ac.com
-
-Customer panel and downloads:
-https://hcp-ac.com
-
-Discord:
-https://discord.gg/RGAUVNnAY2
-
-
-----------------------------------------------------------------------
-IMPORTANT
-----------------------------------------------------------------------
-
-This file does not contain the HCP AC Anti-Cheat or scanner.
-
-It is provided as an informational download guide.
-
-The official software is only available after signing in through the
-HCP AC website and accessing the authorized download area.
-
-
-======================================================================
-            HCP AC — FiveM Security, Analysis and Management
-======================================================================
+--[[
+    HCP AC - Official Download Helper
+
+    This public file does not contain the HCP Anti-Cheat or HCP Scanner.
+    Protected production builds are distributed through the official HCP AC panel.
+
+    Run with:
+        lua download.lua
+
+    Official website:
+        https://hcp-ac.com
+]]
+
+local HCP = {
+    name = "HCP AC",
+    website = "https://hcp-ac.com",
+    docs = "https://hcp-ac.com/docs.php",
+    anticheat = "https://hcp-ac.com/anticheat.php",
+    scanner = "https://hcp-ac.com/pc-analysis.php",
+    pricing = "https://hcp-ac.com/pricing",
+    discord = "https://discord.gg/RGAUVNnAY2"
+}
+
+local function write(label, value)
+    print(string.format("  %-14s %s", label, value))
+end
+
+function HCP.showDownloadInfo()
+    print("")
+    print("HCP AC | OFFICIAL DOWNLOADS")
+    print("------------------------------------------------------------")
+    print("Production builds are available through the HCP AC panel.")
+    print("This GitHub file is only a public download helper.")
+    print("")
+
+    write("Website", HCP.website)
+    write("Docs", HCP.docs)
+    write("Anti-Cheat", HCP.anticheat)
+    write("Scanner", HCP.scanner)
+    write("Pricing", HCP.pricing)
+    write("Discord", HCP.discord)
+
+    print("")
+    print("ANTI-CHEAT")
+    print("  1. Sign in to the HCP AC panel.")
+    print("  2. Select or activate the correct license.")
+    print("  3. Download the current resource.")
+    print("  4. Place it in your FiveM resources directory.")
+    print("  5. Configure it from the HCP web panel.")
+    print("  6. Verify the connection with: hcp status")
+    print("")
+    print("SCANNER")
+    print("  Create a scan session / PIN from the HCP panel and use the")
+    print("  official download flow shown to the user.")
+    print("")
+    print("SECURITY")
+    print("  Do not use unofficial mirrors, reuploads or modified builds.")
+    print("------------------------------------------------------------")
+    print("")
+end
+
+-- Print the helper when this file is executed directly.
+-- When loaded as a module with dofile/loadfile, callers can also use
+-- the returned HCP table and call HCP.showDownloadInfo() themselves.
+HCP.showDownloadInfo()
+
+return HCP
