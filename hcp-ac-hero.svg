@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" fill="none">
+  <style>
+    :root{
+      --bg:#f6f8fa;
+      --panel:#ffffff;
+      --line:#d0d7de;
+      --soft:#f2f4f7;
+      --text:#111827;
+      --muted:#6b7280;
+      --accent:#111111;
+      --glow:rgba(17,17,17,0.18);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root{
+        --bg:#0d1117;
+        --panel:#11161d;
+        --line:#30363d;
+        --soft:#161b22;
+        --text:#f0f6fc;
+        --muted:#9da7b3;
+        --accent:#ffffff;
+        --glow:rgba(255,255,255,0.18);
+      }
+    }
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .beam{animation:scan 5s linear infinite}
+    .pulse1{animation:pulse 1.8s ease-in-out infinite}
+    .pulse2{animation:pulse 2.2s ease-in-out infinite}
+    .pulse3{animation:pulse 2.6s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-230px)}100%{transform:translateX(1180px)}}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  </style>
+
+  <rect width="1280" height="340" rx="28" fill="var(--bg)"/>
+  <rect x="1" y="1" width="1278" height="338" rx="27" stroke="var(--line)"/>
+
+  <rect x="36" y="34" width="1208" height="272" rx="22" fill="var(--panel)"/>
+  <rect x="36.5" y="34.5" width="1207" height="271" rx="21.5" stroke="var(--line)"/>
+
+  <g opacity="0.35">
+    <path d="M72 96H1208" stroke="var(--line)"/>
+    <path d="M72 150H1208" stroke="var(--line)"/>
+    <path d="M72 204H1208" stroke="var(--line)"/>
+    <path d="M72 258H1208" stroke="var(--line)"/>
+    <path d="M262 72V274" stroke="var(--line)"/>
+    <path d="M446 72V274" stroke="var(--line)"/>
+    <path d="M630 72V274" stroke="var(--line)"/>
+    <path d="M814 72V274" stroke="var(--line)"/>
+    <path d="M998 72V274" stroke="var(--line)"/>
+    <path d="M1182 72V274" stroke="var(--line)"/>
+  </g>
+
+  <text x="80" y="64" font-size="13" font-weight="700" fill="var(--muted)" letter-spacing="1.8">CONNECTED PRODUCT OVERVIEW</text>
+
+  <text x="556" y="64" font-size="14" font-weight="600" fill="var(--muted)">Player review, evidence and live team workflows.</text>
+
+  <g>
+    <rect x="80" y="102" width="430" height="138" rx="18" fill="var(--soft)" stroke="var(--line)"/>
+    <g class="beam">
+      <rect x="0" y="96" width="160" height="150" rx="22" fill="url(#glowBand)" opacity="0.7"/>
+    </g>
+
+    <text x="108" y="161" font-size="78" font-weight="700" fill="var(--text)" letter-spacing="1.5">HCP</text>
+    <path d="M324 188L388 92" stroke="var(--accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
+    <text x="400" y="161" font-size="78" font-weight="700" fill="var(--text)" letter-spacing="1.5">AC</text>
+    <text x="108" y="204" font-size="14" font-weight="700" fill="var(--muted)" letter-spacing="1.4">FIVEM SECURITY PLATFORM</text>
+  </g>
+
+  <g>
+    <rect x="560" y="103" width="168" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse1" cx="586" cy="127" r="6" fill="var(--accent)"/>
+    <text x="602" y="132" font-size="13" font-weight="700" fill="var(--text)">LIVE PROTECTION</text>
+
+    <rect x="746" y="103" width="176" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse2" cx="772" cy="127" r="6" fill="var(--accent)"/>
+    <text x="788" y="132" font-size="13" font-weight="700" fill="var(--text)">24/7 MONITORING</text>
+
+    <rect x="940" y="103" width="152" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse3" cx="966" cy="127" r="6" fill="var(--accent)"/>
+    <text x="982" y="132" font-size="13" font-weight="700" fill="var(--text)">WEB WATCH</text>
+
+    <rect x="560" y="169" width="148" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse2" cx="586" cy="193" r="6" fill="var(--accent)"/>
+    <text x="602" y="198" font-size="13" font-weight="700" fill="var(--text)">TRUST SCORE</text>
+
+    <rect x="726" y="169" width="156" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse1" cx="752" cy="193" r="6" fill="var(--accent)"/>
+    <text x="768" y="198" font-size="13" font-weight="700" fill="var(--text)">ON-SCREEN</text>
+
+    <rect x="900" y="169" width="150" height="48" rx="14" fill="var(--soft)" stroke="var(--line)"/>
+    <circle class="pulse3" cx="926" cy="193" r="6" fill="var(--accent)"/>
+    <text x="942" y="198" font-size="13" font-weight="700" fill="var(--text)">PC ANALYSIS</text>
+  </g>
+
+  <defs>
+    <linearGradient id="glowBand" x1="0" y1="171" x2="160" y2="171" gradientUnits="userSpaceOnUse">
+      <stop stop-color="transparent"/>
+      <stop offset="0.5" stop-color="var(--glow)"/>
+      <stop offset="1" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+</svg>
