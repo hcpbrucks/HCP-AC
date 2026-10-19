@@ -1,43 +1,25 @@
-<p align="center">
-  <img src="./download-status.svg" alt="Download Status" width="100%">
-</p>
+# Downloads
 
-# Download
+[← Back to HCP AC](README.md)
 
-If you expected a direct public download here, that was optimistic.
+Use the official HCP AC website for current builds. This repository does not host release binaries.
 
-Protected HCP AC builds are delivered through the official HCP panel and customer flow, not through this repository.
+## Anti-Cheat
 
-## What to do instead
+1. Sign in on [hcp-ac.com](https://hcp-ac.com) and activate the appropriate license.
+2. Download the current Anti-Cheat resource through the customer panel.
+3. Follow the [installation documentation](https://hcp-ac.com/docs) to install the resource and set up the HCP Installer integration.
+4. Review configuration and access permissions, then confirm the resource is connected and current.
 
-### Anti-Cheat
+## HCP Scanner
 
-1. Open the official HCP AC website.
-2. Sign in to your account.
-3. Activate or select the correct license.
-4. Open the product download area.
-5. Download the current build.
-6. Configure it through the panel.
+1. A staff member creates a PC Analysis session and shares its 4-digit PIN with the player.
+2. The player enters the PIN on the [official scanner download page](https://hcp-ac.com/download).
+3. The player opens the Windows scanner and accepts the analysis.
+4. Staff review the completed report in the matching panel session.
 
-### Scanner
+Learn more about [PC Analysis](https://hcp-ac.com/pc-analysis).
 
-1. Open the HCP panel.
-2. Create a scan / PIN workflow.
-3. Use the official scanner flow shown to the user.
-4. Review the result in the panel.
+## Need help?
 
-## Official links
-
-- Website: https://hcp-ac.com
-- Documentation: https://hcp-ac.com/docs.php
-- Pricing: https://hcp-ac.com/pricing
-- Discord: https://discord.gg/RGAUVNnAY2
-
-<p align="center">
-  <a href="https://hcp-ac.com">
-    <img src="https://img.shields.io/badge/Open-HCP_AC-111111?style=for-the-badge" alt="Open HCP AC">
-  </a>
-  <a href="https://hcp-ac.com/docs.php">
-    <img src="https://img.shields.io/badge/Read-Documentation-111111?style=for-the-badge" alt="Documentation">
-  </a>
-</p>
+Check the [documentation](https://hcp-ac.com/docs) or contact the team through [Discord](https://discord.gg/j32QhbQdWb).
